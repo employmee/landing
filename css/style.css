@@ -1,0 +1,40 @@
+@import url('./components/banner.css');
+@import url('./components/button.css');
+@import url('./components/cards.css');
+@import url('./components/footer.css');
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mukta:wght@300&family=PT+Sans+Caption:wght@700&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: rgb(243, 243, 240);
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: black;
+}
+
+h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 1200px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}

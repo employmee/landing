@@ -1,0 +1,14 @@
+.banner {
+  background-size:cover;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  background-position: center;
+  position: relative;
+}
+.banner-text {
+  position: absolute;
+  bottom: 2px;
+  left: 100px;
+  font-size: 20px;
+}

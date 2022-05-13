@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My landing page</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <!-- We need this line below for responsiveness! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- code a Hero / Banner section -->
+  <div class="banner" style="background-image: url('./images/banner.png');">
+    <div class="banner-text">
+      <h1>Learn to Code in Ruby</h1>
+    </div>
+  </div>
+  <!-- code a "How it works" section -->
+  <div class="container">
+    <h2>Useful Methods</h2>
+    <div class="card-container">
+      <a href="https://apidock.com/ruby/String/strip" target="_blank"><div class="card-category" style="background-image: url('./images/jimmy-we.gif');">
+        <h2>.strip()</h2>
+      </div></a>
+      <a href="https://www.geeksforgeeks.org/ruby-array-length-function/" target="_blank"><div class="card-category" style="background-image: url('./images/pinnochio-lies.gif');">
+        <h2>.length()</h2>
+      </div></a>
+      <a href="https://apidock.com/ruby/String/squeeze" target="_blank"><div class="card-category" style="background-image: url('./images/squeeze.gif');">
+        <h2>.squeeze()</h2>
+      </div></a>
+    </div>
+  </div>
+  <!-- code a footer -->
+  <div class="footer">
+    <div class="footer-form">
+      <h2>Stay Connected</h2>
+      <input type="text" id="email" name="email" placeholder="email@gmail.com">
+      <input type="submit" value="Submit" class="btn-signup">
+    </div>
+  </div>
+</body>
+</html>
